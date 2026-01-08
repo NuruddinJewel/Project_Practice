@@ -9,9 +9,9 @@
     box-sizing: border-box; /*Padding within the box*/
 } 
 /* Shared style */
-/* Font (Opensans Design) */
+/* Font (Open sans Design) */
 .font-open-sans{
-     background-color: #FFF8F3;
+     /* background-color: #FFF8F3; */
      font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
  
@@ -26,12 +26,26 @@
 .btn{
     background-color: #FD6E0A;
     border:none;
-    padding:18px 35px; /*top botton : 18px left-right: 35px */
+    padding:18px 35px; /*top bottom : 18px left-right: 35px */
     border-radius: 5px;/*corner radius:5px */
     font-size: 20px;
     font-weight: bold;
     color: white;
     cursor: pointer; /* cursor pointer */
+}
+#about .About-content {
+    max-width: 827px;
+    text-align: center;
+h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 }
 
 /* Main style */
@@ -40,11 +54,31 @@ header{
     padding-top: 50px;
 }
 main{
-    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3 ;
+    background: url("../images/developer.png"), url("../images/header_bg.png"),#FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom left;
-}
+    background-position: top left, bottom right ;
 
+}
+#about{
+    padding-bottom:130px;
+ .About-content  {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: #FFF8F3; */
+    padding:131px 157px ;
+}
+ .section-heading{
+    /* margin: 0 auto; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:0px;
+    white-space: normal;
+ }
+}
 nav{
      width:71%;
     max-width: 1140px;
@@ -70,8 +104,8 @@ nav .menu a{
     /* border: 1px solid red; */
     margin: 47px 38px 0 230px;
     justify-content: space-between;
-    align-items: center;
-    /* display: flex; */
+    /* align-items: center; */
+    display: flex ;
 .banner-content h2{
     font-size: 45px;
     font-weight :600;
@@ -92,10 +126,35 @@ nav .menu a{
 }
 .banner-content{
     max-width: 585px;
+    margin-bottom:130px ;
 }
 
+.btn1{
+background-color: #FD6E0A;
+    border:none;
+    padding:18px 35px; /*top bottom : 18px left-right: 35px */
+    border-radius: 5px;/*corner radius:5px */
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer; /* cursor pointer */
+    margin-right: 30px;
+    }
+.btn2{
+        background-color: #FD6E0A;
+    border:none;
+    padding:18px 35px; /*top bottom : 18px left-right: 35px */
+    border-radius: 5px;/*corner radius:5px */
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer; /* cursor pointer */
+
+    }
+}
 .banner-image img{
     max-width: 583px;
+    margin: 0 auto;
     vertical-align: middle; /* gap remove*/
 }
-}
+
